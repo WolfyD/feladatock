@@ -63,6 +63,7 @@
 			this.btn_Menu_BackColor = new System.Windows.Forms.ToolStripMenuItem();
 			this.cd_FontColor = new System.Windows.Forms.ColorDialog();
 			this.cd_BackColor = new System.Windows.Forms.ColorDialog();
+			this.extraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.cms_Menu.SuspendLayout();
 			this.SuspendLayout();
@@ -73,7 +74,8 @@
             this.btn_Menu_File,
             this.szerkesztésToolStripMenuItem,
             this.helpToolStripMenuItem,
-            this.btn_Style});
+            this.btn_Style,
+            this.extraToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
 			this.menuStrip1.Size = new System.Drawing.Size(461, 24);
@@ -320,6 +322,12 @@
 			// 
 			this.cd_BackColor.Color = System.Drawing.Color.White;
 			// 
+			// extraToolStripMenuItem
+			// 
+			this.extraToolStripMenuItem.Name = "extraToolStripMenuItem";
+			this.extraToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+			this.extraToolStripMenuItem.Text = "extra";
+			// 
 			// f_Editor
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -374,5 +382,6 @@
 		private System.Windows.Forms.ToolStripMenuItem btn_Menu_BackColor;
 		private System.Windows.Forms.ColorDialog cd_FontColor;
 		private System.Windows.Forms.ColorDialog cd_BackColor;
+		private System.Windows.Forms.ToolStripMenuItem extraToolStripMenuItem;
 	}
 }
